@@ -1,0 +1,121 @@
+body {
+  font-family: Arial;
+  line-height: 1.4em;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+}
+button {
+  background-color: aqua;   
+  border: 2px solid aqua;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#myBtn{
+  position: fixed;
+  left: 750px;
+}
+
+#listcontainer{
+background-color: rgb(44, 44, 58);
+margin: 0;
+padding-top: 10px;
+}
+
+#myListing, p {
+  padding-left: 45px;
+}
+
+#lista{
+  padding-top: 10px;
+  min-width: 640px;
+
+}
+
+.container {
+  height: 210px;
+  width: auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: auto;
+  padding: 0;
+}
+.gallery-item {
+  list-style: none;
+}
+.gallery-item > img {
+  width: auto;
+  height: 210px;
+  margin: 10px;
+}
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.5);
+}
+.hidden {
+  display: none;
+}
+#lightbox-image {
+  width: auto;
+  height: 80vh;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 20px;
+  color: white;
+}
+#prev, #next, #close {
+  cursor: pointer;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+
+td {
+
+  cursor: pointer;  
+	background-color: black;
+	background-size: 120px;
+	filter: opacity(80%) ;
+	background-repeat: no-repeat;
+	border: 3px solid black;
+	font-size:80px;
+	color:#00fff2;
+	font-style: inherit;	
+	font: bold;
+  border-radius: 10px 10px 10px 10px;
+  width: 120px;
+ 
+}
+
+
+
+.tictacsheet{
+	display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+

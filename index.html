@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+    <header>
+       
+        <div> 
+                <div id="listcontainer" class="h-100 d-flex justify-content-center align-items-center flex-column">
+                        <h1 style="color:rgb(245, 161, 6);font-family:Impact"> JUST ROAR  </h1>    
+                    <form class="w-50" id="myForm" autocomplete="off">
+                            <div class="form-group">
+                                <label style="color:bisque"> Add New Task:</label>
+                                <input type="text" class="form-control" id="addNewTask" placeholder="Ex: Wash Car">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <div id="lista">
+                              
+                             <h5 style="color:bisque">To do List:</h5>
+                             <ol style="color:rgb(243, 202, 152);  " class="p-0" id="taskList"></ol>
+                                    
+                        </div>
+                    </div>
+        </div>
+           
+        <div><button id="myBtn">Click Me Now!</button></div>
+    </header>
+ 
+    <div class="container">
+        <ul class="gallery">
+            <li class="gallery-item"><img src="images/gallery/photo01.jpeg" alt=""></li>
+            <li class="gallery-item"><img src="images/gallery/photo02.jpeg" alt=""></li>
+            <li class="gallery-item"><img src="images/gallery/photo03.jpeg" alt=""></li>
+            
+        </ul>
+    </div>
+    <br/>
+
+    <h1 style="text-align: center ; background-color: rgb(9, 217, 253)">Tic - Tac - Toe Games</h1>
+    <div id="tictactoe" class="tictacsheet"></div>
+    
+		<div class="tictacsheet">
+          <h1><span >It's Your Turn:</span>  <span id='turn' style="color:rgb(20, 99, 247)">Player X</span></h1>  
+            
+
+    </div>
+    
+    <div class="lightbox hidden">
+        <div class="image-container">
+            <div>
+                <span id="prev">prev</span>
+                <span id="close">close</span>
+                <span id="next">next</span>
+            </div>
+            <img id="lightbox-image" src="" alt="">
+        </div>
+    </div>
+    <!-- tictac2 -->
+ 
+    
+    <!-- bootstrap js -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    <!-- custom js file -->
+    <script src="./js/gallery.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/tictac.js"></script>
+ 
+</body>
+</html>
