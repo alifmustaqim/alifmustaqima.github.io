@@ -19,7 +19,7 @@ function moveNow () {
 }
 
 function successAlready(){
-    window.alert("Congrats On Your Victory To Catch Me User!! NOW !! As A Gift.. You Can NOW.. Press The Image in Roar Galleries To Get The Better View Now.. Where You Can Get It Without Catch Me.. HAHAHA Laters");
+    window.alert("Congrats On Your Victory To Catch Me User!! NOW !! As A Gift.. You Can NOW.. Press The Image in Roar Galleries To Get The Better View Now.. Where You Can Get It Without Catch Me.. HAHAHA LOSERS - Mischievous Magic Button");
 }
   
   function randomLeft() {
