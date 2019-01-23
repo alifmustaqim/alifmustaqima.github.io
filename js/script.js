@@ -7,7 +7,7 @@ function moveNow () {
     count = count + 1;
     console.log(count);
 
-    if(count<=10){
+    if(count<=13){
         document.getElementById("myBtn").style.left = randomLeft();
         document.getElementById("myBtn").style.bottom = randomBottom();
     }
@@ -19,7 +19,7 @@ function moveNow () {
 }
 
 function successAlready(){
-    window.alert("You Did It!");
+    window.alert("Congrats On Victory To Catch Me User!! As A Gift.. You Can Press The Image To Get The Better View Now.. Where You Can Get It Without Catch Me.. HAHAHA Laters");
 }
   
   function randomLeft() {
